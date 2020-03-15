@@ -20,17 +20,17 @@ collections:
   - name: 'defaultpages'
     label: 'Default Pages'
     files:
-      - file: 'content/index.md'
+      - file: 'content/_index.md'
         label: 'Home'
         name: 'index'
         fields:
-          - {label: Title, name: title, widget: string}
-          - { label: 'Description', name: 'description', widget: 'string' }
           - { label: 'Meta Title', name: 'metatitle', widget: 'string' }
           - { label: 'Meta Description', name: 'metadescription', widget: 'string' }
-          - {label: Heading, name: heading, widget: string}
-          - {label: body, name: body, widget: markdown}
-      - file: 'content/about/index.md'
+          - {label: 'Hero Title', name: 'herotitle', widget: 'string'}
+          - { label: 'Hero Subtitle', name: 'herosubtitle', widget: 'string' }
+          - {label: 'Heading', name: 'heading', widget: 'string'}
+          - {label: 'body', name: 'body', widget: 'markdown'}
+      - file: 'content/about/_index.md'
         label: 'About'
         name: 'about'
         fields:
