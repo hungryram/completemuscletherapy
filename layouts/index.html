@@ -3,6 +3,11 @@
 {{ partial "header.html" . }}
 {{ partial "hero.html" . }}
 
+<main>
+{{ partial "home-about.html" . }}
+
+{{ partial "home-service.html" . }}
+<br>
 
 {{ .Params.title }}<br>
 {{ .Params.description }}
@@ -10,5 +15,7 @@
 the home
 <a href="{{.Site.BaseURL}}blog">Blog</a><br>
 <a href="{{.Site.BaseURL}}about">About</a><br>
+</main>
+
 
 {{ partial "footer.html" . }}
