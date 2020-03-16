@@ -12,3 +12,24 @@
     font-family: 'Lato', sans-serif;
     letter-spacing: 5px;
 }
+
+/* SERVICES */
+
+.service-box-one {
+    background: url('/img/aroma1.jpg') no-repeat center;
+    background-size: cover;
+}
+
+.service-box-two {
+    background: url('/img/stones1.jpg') no-repeat center;
+    background-size: cover;
+}
+
+.service-box-three {
+    background: url('/img/candle1.jpg') no-repeat center;
+    background-size: cover;
+}
+
+.unique-btn:hover a{
+    color: red;
+}
