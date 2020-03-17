@@ -30,6 +30,6 @@
     background-size: cover;
 }
 
-.unique-btn:hover a{
-    color: red;
+footer {
+    background-color: #141414;
 }
